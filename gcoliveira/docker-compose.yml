@@ -46,8 +46,8 @@ services:
     image: mysql:5.6
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: teste123
-      MYSQL_DATABASE: jose
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: user
     volumes:
       - ./volumes/mysql:/var/lib/mysql
 
